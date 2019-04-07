@@ -1,0 +1,105 @@
+/*
+
+Based on https://uibreakfast.com/ design
+
+*/
+
+body {
+    font-family: acumin-pro, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    padding-top: 99px;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    max-height: 800px;
+    padding: 25px 0;
+    border-bottom: 1px solid #ececec;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 25px -20px #000;
+    z-index: 1000;
+    width: 100%;
+    opacity: .97;
+}
+
+a, a:visited, a:hover {
+    color: #000;
+}
+
+ul, li, img {
+    margin: 0;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 42px;
+}
+nav.navigation_bar {
+    float: right;
+    line-height: 48px;
+}
+
+.navigation_bar ul {
+    min-width: 200px;
+    display:flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+.navigation_bar li {
+}
+
+.navigation_bar a {
+    padding: 8px;
+    text-decoration-line: none;
+}
+
+/* NEED TO FIX NAV TO BE MORE ACCESSIBLE WITH HOVER/FOCUS STATES AND IMPROVED ACTIVE STATE */
+
+.navigation_bar a.active {
+    text-decoration-line: underline;
+}
+
+footer, footer a, footer a:visited, footer a:hover {
+    font-size: 14px;
+    color: #767676;
+    line-height: 1.5em;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    display: block;
+    padding: 40px 120px 70px;
+}
+.footer_logo{
+    display: inline-block;
+}
+
+.footer_logo img{
+    display:inline-block;
+    margin-right: 20px;
+    top:10px;
+    position:relative;
+}
+
+.footer_text {
+    position: static;
+    top: 10px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: #767676;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.footer_nav {
+    width: 140px;
+    display:flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+}

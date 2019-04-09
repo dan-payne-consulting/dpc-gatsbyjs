@@ -26,6 +26,11 @@ body {
     width:auto;
     height:auto;
     left:auto;
+    background-color: #B7410E;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 header {

@@ -98,7 +98,7 @@ footer {
 }
 
 .footer_nav {
-    width: 140px;
+    width: 200px;
     display:flex;
     justify-content: space-between;
     flex-shrink: 1;

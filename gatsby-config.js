@@ -5,6 +5,10 @@ module.exports = {
     author: `@d_s_payne`,
     menuLinks:[
       {
+        name:'Home',
+        link:'/'
+      },
+      {
         name:'About',
         link:'/about'
       },

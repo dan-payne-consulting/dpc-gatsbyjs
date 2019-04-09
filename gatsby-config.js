@@ -6,19 +6,28 @@ module.exports = {
     menuLinks:[
       {
         name:'Home',
-        link:'/'
+        link:'/',
+        display: 'header'
       },
       {
         name:'About',
-        link:'/about'
+        link:'/about',
+        display: 'both'
       },
       {
         name:'Links',
-        link:'/links'
+        link:'/links',
+        display: 'both'
       },
       {
         name:'Contact',
-        link:'/contact'
+        link:'/contact',
+        display: 'both'
+      },
+      {
+        name:'Accessibility',
+        link:'/accessibility',
+        display: 'footer'
       },
     ]
   },

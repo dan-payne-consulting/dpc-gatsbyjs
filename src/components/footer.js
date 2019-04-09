@@ -5,7 +5,7 @@ import {Link} from "gatsby"
 
 const Footer = ({ menuLinks }) => (
     <footer>
-        <Link to="/"  className="footer_logo">
+        <Link to="/"  className="footer_logo" tabIndex="-1">
             <img width="50px" src={logo} alt="Home" />
         </Link>
         <div className="footer_text">

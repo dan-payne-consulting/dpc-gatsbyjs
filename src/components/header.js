@@ -26,6 +26,7 @@ const Header = ({ siteTitle, menuLinks, logoImage }) => (
             textDecoration: `none`,
             display: `inline-block`
           }}
+          tabIndex="-1"
         >
         {/*
         <Img

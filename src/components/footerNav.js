@@ -7,7 +7,9 @@ class Nav extends React.Component {
             <nav className="footer_nav">
                     {
                         this.props.menuLinks.map(link =>
+                            (link.display === "footer" || link.display === "both") ?
                             <Link key={link.name} to={link.link} activeClassName="active">{link.name}</Link>
+                                : ""
                         )
                     }
             </nav>

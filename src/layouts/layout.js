@@ -21,6 +21,7 @@ query SiteTitleQuery {
             menuLinks {
               name
               link
+              display
             }
           }
         }
@@ -44,17 +45,20 @@ query SiteTitleQuery {
     `}
     render={data => (
       <>
+        <div id="skip"><a href="#maincontent">Skip to Main Content</a></div>
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}
           logoImage={data.logoImage}
         />
         <div
+          id="maincontent"
           style={{
             margin: `0 auto`,
             maxWidth: 700,
             paddingTop: 25,
           }}
+          tabIndex="-1"
         >
           <main>{children}</main>
           <Footer

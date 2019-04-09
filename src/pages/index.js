@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`accessibility`, `consulting`, `website`]} />
 
-    <section id="maincontent" className="content">
+    <section>
       <article className="content-text">
         <h1>Web Accessibility Specialist and Consultant</h1>
 

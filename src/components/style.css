@@ -8,7 +8,6 @@ body {
     font-family: acumin-pro, sans-serif;
     font-size: 18px;
     line-height: 1.6em;
-    padding-top: 99px;
 }
 
 #skip a
@@ -51,16 +50,6 @@ a:hover, .navigation_bar a.active {
     text-decoration-line: underline;
 }
 
-ul, li, img {
-    margin: 0;
-}
-
-h1 {
-    font-family: Montserrat, sans-serif;
-    font-weight: normal;
-    font-size: 36px;
-    margin-top: 42px;
-}
 nav.navigation_bar {
     float: right;
     line-height: 48px;
@@ -80,11 +69,33 @@ nav.navigation_bar {
     text-decoration-line: none;
 }
 
+
+ul, li, img {
+    margin: 0;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    margin-top: 42px;
+}
+
+#maincontent:before {
+    display: block;
+    content: " ";
+    height: 99px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
 footer, footer a, footer a:visited, footer a:hover {
     font-size: 14px;
     color: #767676;
     line-height: 1.5em;
 }
+
 footer {
     padding-top: 30px;
     padding-bottom: 70px;

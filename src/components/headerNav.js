@@ -9,9 +9,9 @@ class Nav extends React.Component {
                     {
                         this.props.menuLinks.map(link =>
                                 (link.display === "header" || link.display === "both") ?
-                                <li key={link.name} style={{ 'listStyleType': 'none'}}>
-                                    <Link to={link.link} activeClassName="active">{link.name}</Link>
-                                </li>
+                                    <li key={link.name} style={{ 'listStyleType': 'none'}}>
+                                        <Link to={link.link} activeClassName="active">{link.name}</Link>
+                                    </li>
                                     : ""
                         )
                     }

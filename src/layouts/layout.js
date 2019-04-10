@@ -10,6 +10,9 @@ import "../components/style.css"
 
 import icon32 from '../images/DPC-icon.png'
 
+import DesktopBreakpoint from "../components/responsive_utilities/desktop_breakpoint"
+import TabletBreakpoint from "../components/responsive_utilities/tablet_breakpoint"
+import PhoneBreakpoint from "../components/responsive_utilities/phone_breakpoint"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -46,25 +49,50 @@ query SiteTitleQuery {
     render={data => (
       <>
         <div id="skip"><a href="#maincontent">Skip to Main Content</a></div>
-        <Header
-          menuLinks={data.site.siteMetadata.menuLinks}
-          siteTitle={data.site.siteMetadata.title}
-          logoImage={data.logoImage}
-        />
-        <div
-          id="maincontent"
-          style={{
-            margin: `0 auto`,
-            maxWidth: 700,
-            paddingTop: 25,
-          }}
-          tabIndex="-1"
-        >
-          <main>{children}</main>
-          <Footer
-            menuLinks={data.site.siteMetadata.menuLinks}
-          />
-        </div>
+
+        <DesktopBreakpoint>
+            <Header
+              menuLinks={data.site.siteMetadata.menuLinks}
+              siteTitle={data.site.siteMetadata.title}
+              logoImage={data.logoImage}
+              type="desktop"
+            />
+        </DesktopBreakpoint>
+        <TabletBreakpoint>
+            <Header
+              menuLinks={data.site.siteMetadata.menuLinks}
+              siteTitle={data.site.siteMetadata.title}
+              logoImage={data.logoImage}
+              type="tablet"
+            />
+        </TabletBreakpoint>
+        <PhoneBreakpoint>
+            <Header
+              menuLinks={data.site.siteMetadata.menuLinks}
+              siteTitle={data.site.siteMetadata.title}
+              logoImage={data.logoImage}
+              type="phone"
+            />
+        </PhoneBreakpoint>
+
+        <DesktopBreakpoint>
+            <div id="maincontent" tabIndex="-1" class="desktop" >
+                <main class="desktop">{children}</main>
+                <Footer type="desktop" menuLinks={data.site.siteMetadata.menuLinks} />
+            </div>
+        </DesktopBreakpoint>
+        <TabletBreakpoint>
+            <div id="maincontent" tabIndex="-1" class="tablet" >
+                <main class="tablet">{children}</main>
+                <Footer type="tablet" menuLinks={data.site.siteMetadata.menuLinks} />
+            </div>
+        </TabletBreakpoint>
+        <PhoneBreakpoint>
+            <div id="maincontent" tabIndex="-1" class="phone" >
+                <main class="phone">{children}</main>
+                <Footer type="phone" menuLinks={data.site.siteMetadata.menuLinks} />
+            </div>
+        </PhoneBreakpoint>
 
         <Helmet
             //title="Dan Payne"

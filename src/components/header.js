@@ -5,11 +5,12 @@ import {Link} from "gatsby"
 
 //import Img from 'gatsby-image'
 
-const Header = ({ siteTitle, menuLinks, logoImage }) => (
+const Header = ({ siteTitle, menuLinks, logoImage, type }) => (
   <header
     style={{
       backgroundColor: `#FFF`,
     }}
+    class={type}
   >
     <div
       style={{
@@ -24,8 +25,8 @@ const Header = ({ siteTitle, menuLinks, logoImage }) => (
           style={{
             color: `black`,
             textDecoration: `none`,
-            display: `inline-block`
           }}
+          className="logo"
           tabIndex="-1"
         >
         {/*
@@ -38,6 +39,7 @@ const Header = ({ siteTitle, menuLinks, logoImage }) => (
       </Link>
 
       <Nav menuLinks = {menuLinks} />
+
     </div>
   </header>
 )

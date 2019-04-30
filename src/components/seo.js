@@ -26,7 +26,7 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const titleTemplate = title == 'Home' ? `${site.siteMetadata.title}` : `%s | ${site.siteMetadata.title}`
+  const titleTemplate = title == 'Home' ? `${site.siteMetadata.title}, Website Accessibility Specialist` : `%s | ${site.siteMetadata.title}`
 
   return (
     <Helmet

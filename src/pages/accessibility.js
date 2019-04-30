@@ -21,7 +21,7 @@ const About = () => (
             for this website.</p>
 
         <p>I've worked hard on the accessibility of this site to achieve my goal of Level AA accessibility. I monitor it
-            regularly to maintain access, but if you do find any problems, please <Link to="/links">get in touch</Link>.
+            regularly to maintain access, but if you do find any problems, please <Link to="/contact">get in touch</Link>.
         </p>
 
         <h2>Learn more</h2>

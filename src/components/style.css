@@ -10,6 +10,17 @@ body {
     line-height: 1.6em;
 }
 
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0) !important;
+    clip-path: inset(100%) !important;
+    height: 1px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px !important
+}
+
 #skip a
 {
     position:absolute;
@@ -140,15 +151,12 @@ footer{
 }
 
 .footer_nav {
-    width: 260px;
+    width: 100%;
     display:flex;
     justify-content: space-between;
     flex-shrink: 1;
 }
 
-footer.phone .footer_nav {
-    width: 300px;
-}
 footer.phone .footer_nav a{
     font-size: 16px;
     padding: 10px;
@@ -243,4 +251,14 @@ footer.phone .footer_text{
 footer.phone .footer_logo img{
     margin: 0;
     top:0;
+}
+
+.icon>svg {
+    display: inline-block;
+    height: 1.1em;
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+    width: 1.1em;
+    z-index: 2
 }

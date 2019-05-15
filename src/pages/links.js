@@ -30,6 +30,10 @@ const Links = () => (
         </dl>
         <h2>Some orgs and folks you should really check out...</h2>
         <dl>
+            <dt>Scott O'Hara</dt>
+            <dd><a target="_blank" rel="noopener noreferrer" href="https://www.scottohara.me">www.scottohara.me</a></dd>
+            <dt>Sara Soueidan</dt>
+            <dd><a target="_blank" rel="noopener noreferrer" href="https://www.sarasoueidan.com">www.sarasoueidan.com</a></dd>
             <dt>Marcy Sutton</dt>
             <dd><a target="_blank" rel="noopener noreferrer" href="https://www.marcysutton.com">www.marcysutton.com</a></dd>
             <dt>Jeffrey Zeldman</dt>

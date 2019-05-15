@@ -157,6 +157,11 @@ footer{
     flex-shrink: 1;
 }
 
+footer.phone .footer_nav{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 footer.phone .footer_nav a{
     font-size: 16px;
     padding: 10px;

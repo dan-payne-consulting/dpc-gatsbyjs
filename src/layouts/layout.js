@@ -103,7 +103,9 @@ query SiteTitleQuery {
             link={[
               { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
           ]}
-        />
+        >
+        <link rel="stylesheet" href="https://use.typekit.net/sfo6sct.css"/>
+        </Helmet>
       </>
     )}
   />

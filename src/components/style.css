@@ -183,6 +183,12 @@ div#maincontent.phone h1 {
     font-size: 24px;
 }
 
+article{
+    display: flex;
+}
+
+
+
 footer.phone {
     padding: 0;
 }

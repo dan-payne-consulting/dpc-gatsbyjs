@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../layouts/layout"
 import SEO from "../components/seo"
 
-import wasLogo from "../images/IAAP-Certification-Logo-WAS-full-size.png"
+import cpwaLogo from "../images/IAAP-Certification-Logo-CPWA_fullsize.png"
 import headshot from "../images/headshot-bw.jpg"
 
 const IndexPage = () => (
@@ -16,12 +16,12 @@ const IndexPage = () => (
         <h1>Web Accessibility Specialist and Consultant</h1>
 
         <p style={{textAlign: `center`, paddingTop: `20px`}}>
-          <a href="https://www.accessibilityassociation.org/wascertification">
-            <img src={wasLogo} alt="About WAS Certification"/>
+          <a href="https://www.accessibilityassociation.org/certification">
+            <img src={cpwaLogo} alt="About IAAP Certification"/>
           </a>
         </p>
 
-        <p><img class="inline-img" src={headshot} alt="" style={{float:`left`,borderRadius:`45px`,margin:`0 30px 10px 0`,boxShadow:`20px 20px 15px -25px #000`,maxWidth:`33%`}}/>With over 12 years of experience as a web developer, as a member of the <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org">International Association of Accessibility Professionals (IAAP)</a>, and as an <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org/wascertification">IAAP certified Web Accessibility Specialist</a> I can help evaluate your website and identify, prioritize, and recommend remediation for accessibility issues.</p>
+        <p><img class="inline-img" src={headshot} alt="" style={{float:`left`,borderRadius:`45px`,margin:`0 30px 10px 0`,boxShadow:`20px 20px 15px -25px #000`,maxWidth:`33%`}}/>With over 12 years of experience as a web developer, as a member of the <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org">International Association of Accessibility Professionals (IAAP)</a>, and as an <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org/certification">IAAP Certified Professional in Web Accessibility</a> I can help evaluate your website and identify, prioritize, and recommend remediation for accessibility issues.</p>
 
         <p>According to <a target="_blank" rel="noopener noreferrer" href="https://webaim.org/">WebAIM.org</a>, as of February 2019, 97.8% of <a target="_blank" rel="noopener noreferrer" href="https://webaim.org/projects/million/">the top million website home pages</a> have automatically detectable accessibility errors, making them difficult or impossible for some users to interact with. They go on to say that "only around 25% of possible conformance failures can be automatically detectable." That means you need an experienced web accessibility professional to detect the nearly 75% of issues that automated tools can't catch.</p>
 

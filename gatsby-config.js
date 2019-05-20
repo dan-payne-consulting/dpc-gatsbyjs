@@ -19,11 +19,6 @@ module.exports = {
         link:'/links',
         display: 'both'
       },
-        {
-            name:'Blog',
-            link:'/blog',
-            display: 'both'
-        },
       {
         name:'Contact',
         link:'/contact',
@@ -70,14 +65,5 @@ module.exports = {
     //    }
     //  }
     //},
-      `gatsby-transformer-remark`,
-      'gatsby-plugin-offline',
-      {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-              path: `${__dirname}/content`,
-              name: "pages",
-          },
-      },
   ],
 }

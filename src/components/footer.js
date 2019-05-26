@@ -1,6 +1,6 @@
 import React from "react"
 import Nav from "./footerNav.js"
-import logo from "../images/DPC-logo-rust.svg"
+import logo from "../images/DPC-icon-rb.png"
 import {Link} from "gatsby"
 
 const Footer = ({ type, menuLinks }) => (

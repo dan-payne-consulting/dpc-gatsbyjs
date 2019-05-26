@@ -28,7 +28,7 @@ query SiteTitleQuery {
             }
           }
         }
-        logoImage: file(relativePath: {eq: "DPC-web-logo2.png"}) {
+        logoImage: file(relativePath: {eq: "DPC-web-logo3.png"}) {
           childImageSharp {
             fluid(maxWidth: 295, maxHeight: 48) {
               base64

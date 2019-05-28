@@ -7,7 +7,7 @@ import PrevNext from '../components/prevnext';
 
 function BlogPost(props) {
 
-    const { title, image, date } = props.data.markdownRemark.frontmatter;
+    const { title, image, displayDate, pubDate } = props.data.markdownRemark.frontmatter;
     const { prev, next } = props.pageContext;
 
     return (
@@ -15,7 +15,8 @@ function BlogPost(props) {
             <SEO title={title} />
             <div>
                 <h1>{title}</h1>
-                <p>{date}</p>
+                <p>
+                    <span class="sr-only">Posted on</span><time datetime={pubDate}>{displayDate}</time></p>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
 
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
@@ -37,7 +38,8 @@ export const query = graphql`
        excerpt
        frontmatter {
         title
-        date(formatString: "MMMM Do YYYY")
+        pubDate
+        displayDate(formatString: "dddd, MMMM Do YYYY")
         image {
           childImageSharp {
             resize(width: 1000, height: 420) {

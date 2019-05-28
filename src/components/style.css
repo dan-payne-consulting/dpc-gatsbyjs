@@ -48,7 +48,7 @@ body {
     border: 2px solid black;
 }
 
-header {
+header.top {
     position: fixed;
     left: 0;
     top: 0;

@@ -1,8 +1,10 @@
 ---
 title: Global Accessibility Awareness Day 2019
-date: '2019-05-17'
+pubDate: '2019-05-18T03:00:00Z'
+displayDate: '2019-05-17'
 image: 'IMG_5741a.jpg'
-tags: ['javascript','react']
+summary: 'Yesterday was Global Accessibility Awareness Day and I was honored to give my first-ever, accessibility-related presentation at the San Diego Accessibility & Inclusive Design Meetup Group. I shared summaries of two sessions I attended at a recent conference.'
+tags: ['presentations']
 ---
 
 Yesterday was Global Accessibility Awareness Day and I was honored to give my first-ever, accessibility-related presentation at the [San Diego Accessibility & Inclusive Design Meetup Group](https://www.meetup.com/a11ySD/). I shared summaries of two sessions I attended back in March at the Cal State Northridge Assistive Technologies Conference.

@@ -56,6 +56,7 @@ query SiteTitleQuery {
               siteTitle={data.site.siteMetadata.title}
               logoImage={data.logoImage}
               type="desktop"
+              className="top"
             />
         </DesktopBreakpoint>
         <TabletBreakpoint>
@@ -64,6 +65,7 @@ query SiteTitleQuery {
               siteTitle={data.site.siteMetadata.title}
               logoImage={data.logoImage}
               type="tablet"
+              className="top"
             />
         </TabletBreakpoint>
         <PhoneBreakpoint>
@@ -72,6 +74,7 @@ query SiteTitleQuery {
               siteTitle={data.site.siteMetadata.title}
               logoImage={data.logoImage}
               type="phone"
+              className="top"
             />
         </PhoneBreakpoint>
 

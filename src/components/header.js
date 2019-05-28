@@ -5,44 +5,47 @@ import {Link} from "gatsby"
 
 //import Img from 'gatsby-image'
 
-const Header = ({ siteTitle, menuLinks, logoImage, type }) => (
-  <header
-    style={{
+const Header = ({ siteTitle, menuLinks, logoImage, type }) => {
+    const classNames = `${type} top`
+    return (
+        <header
+            style={{
       backgroundColor: `#FFF`,
     }}
-    class={type}
-  >
-    <div
-      style={{
+            class={classNames}
+            >
+        <div
+            style={{
         margin: `0 auto`,
         maxWidth: 700,
         padding: `0`,
         maxHeight: 48,
       }}
-    >
-      <Link
-          to="/"
-          style={{
+            >
+            <Link
+                to="/"
+                style={{
             color: `black`,
             textDecoration: `none`,
           }}
-          className="logo"
-          tabIndex="-1"
-        >
-        {/*
-        <Img
-          fluid={logoImage.childImageSharp.fluid}
-          alt="Home"
-          style={{width: `295px`, height: `48px`}}
-        />*/}
-        <img style={{width: `295px`, height: `48px`}} alt="Home" src={logoImage.childImageSharp.fluid.src} />
-      </Link>
+                className="logo"
+                tabIndex="-1"
+                >
+                {/*
+                 <Img
+                 fluid={logoImage.childImageSharp.fluid}
+                 alt="Home"
+                 style={{width: `295px`, height: `48px`}}
+                 />*/}
+                <img style={{width: `295px`, height: `48px`}} alt="Home" src={logoImage.childImageSharp.fluid.src}/>
+            </Link>
 
-      <Nav menuLinks = {menuLinks} />
+            <Nav menuLinks={menuLinks}/>
 
-    </div>
-  </header>
-)
+        </div>
+        </header>
+    )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

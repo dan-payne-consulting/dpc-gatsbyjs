@@ -48,7 +48,7 @@ query SiteTitleQuery {
     `}
     render={data => (
       <>
-        <div id="skip"><a href="#maincontent">Skip to Main Content</a></div>
+        <div id="skip"><a href="#main">Skip to Main Content</a></div>
 
         <DesktopBreakpoint>
             <Header
@@ -80,19 +80,19 @@ query SiteTitleQuery {
 
         <DesktopBreakpoint>
             <div id="maincontent" tabIndex="-1" class="desktop" >
-                <main class="desktop">{children}</main>
+                <main id="main" class="desktop">{children}</main>
                 <Footer type="desktop" menuLinks={data.site.siteMetadata.menuLinks} />
             </div>
         </DesktopBreakpoint>
         <TabletBreakpoint>
             <div id="maincontent" tabIndex="-1" class="tablet" >
-                <main class="tablet">{children}</main>
+                <main id="main" class="tablet">{children}</main>
                 <Footer type="tablet" menuLinks={data.site.siteMetadata.menuLinks} />
             </div>
         </TabletBreakpoint>
         <PhoneBreakpoint>
             <div id="maincontent" tabIndex="-1" class="phone" >
-                <main class="phone">{children}</main>
+                <main id="main" class="phone">{children}</main>
                 <Footer type="phone" menuLinks={data.site.siteMetadata.menuLinks} />
             </div>
         </PhoneBreakpoint>

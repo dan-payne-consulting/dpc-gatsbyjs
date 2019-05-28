@@ -109,6 +109,7 @@ h1 {
     margin: 0 auto;
     max-width : 700px;
     /*padding-top : 25px;*/
+    outline:none;
 }
 
 #maincontent:before {
@@ -123,6 +124,7 @@ h1 {
     margin-left: 60px;
     margin-bottom:1.45rem;
 }
+
 
 footer, footer a, footer a:visited, footer a:hover {
     font-size: 14px;

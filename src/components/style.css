@@ -208,7 +208,9 @@ article{
     display: flex;
 }
 
-
+.gatsby-image-wrapper{
+    margin-bottom: 20px;
+}
 
 footer.phone {
     padding: 0;

@@ -10,17 +10,12 @@ const Footer = ({ type, menuLinks }) => (
         </Link>
         <div className="footer_text">
 
-            <div class="show-phone">
+            <div>
                 <Nav menuLinks = {menuLinks} />
             </div>
 
             <span class="inline">© {new Date().getFullYear()} Dan Payne Consulting, LLC.</span>
             <span class="inline">All rights reserved.</span><br/>
-
-
-            <div class="show-desktop show-tablet">
-                <Nav menuLinks = {menuLinks} />
-            </div>
 
 
             {

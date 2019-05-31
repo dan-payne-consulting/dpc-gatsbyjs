@@ -4,7 +4,7 @@ import Layout from "../layouts/layout"
 import SEO from "../components/seo"
 
 import cpwaLogo from "../images/IAAP-Certification-Logo-CPWA_fullsize.png"
-import headshot from "../images/headshot-bw.jpg"
+import headshot from "../images/headshot-bw.webp"
 
 const IndexPage = () => (
   <Layout>

@@ -14,6 +14,12 @@ body {
     line-height: 1.6em;
 }
 
+@font-face {
+    font-family: 'acumin-pro';
+    font-display: auto;
+    src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+
 .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0) !important;
     clip-path: inset(100%) !important;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby'
 import Layout from '../layouts/layout';
-import '../layouts/post.css'
+import '../styles/post.css'
 
 function Tags(props) {
     const posts = props.data.allMarkdownRemark.edges;

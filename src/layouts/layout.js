@@ -5,8 +5,8 @@ import Helmet from 'react-helmet'
 
 import Header from "../components/header"
 import Footer from "../components/footer"
-import "./layout.css"
-import "../components/style.css"
+import "../styles/layout.css"
+import "../styles/style.css"
 
 import icon32 from '../images/DPC-icon.png'
 

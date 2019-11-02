@@ -16,7 +16,7 @@ function BlogPost(props) {
             <div>
                 <h1>{title}</h1>
                 <p>
-                    <span class="sr-only">Posted on</span><time datetime={pubDate}>{displayDate}</time></p>
+                    <span class="sr-only">Posted on </span>{displayDate}</p>
                 {image && <Img fluid={image.childImageSharp.fluid} />}
 
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />

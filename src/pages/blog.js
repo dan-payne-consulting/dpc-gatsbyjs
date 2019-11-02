@@ -22,8 +22,8 @@ const IndexPage = (props) => {
                                 </Link>
                             </h2>
                             <p class="metadata">
-                                <span class="sr-only">Posted on</span>
-                                <time datetime={node.frontmatter.pubDate}>{node.frontmatter.displayDate}</time>
+                                <span class="sr-only">Posted on </span>
+                                {node.frontmatter.displayDate}
                             </p>
                         </header>
                         <p>{node.frontmatter.summary}</p>

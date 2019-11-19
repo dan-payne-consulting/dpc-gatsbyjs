@@ -1,5 +1,5 @@
 ---
-title: Introduction to Web Accessibility for Business Owners
+title: 'Web Accessibility: An Introduction'
 pubDate: '2019-07-20T03:00:00Z'
 displayDate: '2019-07-20'
 #image: '20190516_191923.jpg'
@@ -15,9 +15,9 @@ Statistically we can expect that 80% of them don’t have a disability themselve
 
 Imagine if grocery stores removed their motion-sensor-opening doors and went back to manually-opened doors? How much more challenging would it be it to push your child's stroller through the neighborhood without curb cuts at street corners? What if the ketchup industry went back to glass bottles exclusively? These are illustrations of how things in the physical world have been made better in ways that benefit everyone. Fact is, when we make things easier, whether specifically for people with disabilities or not, we tend to make things easier for everyone. 
 
-Imagine what it would take if you were totally blind and want to buy a bottle of ketchup. You’d have to navigate through your living space and get showered and dressed to leave the house. You’d then have to get to the store, possibly walking to a bus stop to take public transportation to get there. When you arrive at your stop you’ll need to exit the bus and find the entrance to the store. Once inside the store you’d need to find the right aisle and shelf where they keep the ketchup. How do you compare the price of one bottle of ketchup to that of the other brands? Ok, so you make your choice and need to find the checkout. At checkout you have to figure out what denomination of currency to give to the clerk. In the United States, all bills are the same size and weight, so how do you know what to give them? Once you’ve successfully completed checkout you must then make your way back home. 
+Imagine what it would take if you were totally blind and want to buy a bottle of ketchup. You’d have to navigate through your living space and get showered and dressed to leave the house. You’d then have to get to the store, possibly walking to a bus stop to take public transportation. When you arrive at your stop you’ll need to exit the bus and find the entrance to the store. Once inside the store you’d need to find the right aisle and shelf where they keep the ketchup. How do you compare the price of one bottle of ketchup to that of the other brands? Ok, so you make your choice and need to find the checkout. At checkout you have to figure out what denomination of currency to give to the clerk. In the United States, all bills are the same size and weight, so how do you know what to give them? Once you’ve successfully completed checkout you must then make your way back home. 
 
-Now, throughout this example you may have thought: well, there are raised ridges at corners and crosswalks with audible chirps to help people who are blind navigate, buses do have "handicapped" enhancements, grocery stores have assistants to help customers with disabilities, and of course you could just use a credit card. Still, consider the effort involved even with all these “improvements.” Consider that you’d potentially be dealing with a similar process __every__ __day__. Despite the challenges, however, the ability to live independently is critical.
+Now, throughout this example you may have thought: well, there are raised ridges at corners and crosswalks with audible chirps to help people who are blind navigate, buses do have "handicapped" enhancements, grocery stores have assistants to help customers with disabilities, and of course you could just use a credit card. Still, consider the effort involved even with all these “improvements.” Consider that you’d potentially be dealing with a similar process every day. Despite the challenges, however, the ability to live independently is critical.
 
 Now consider what our real world example would look like if the experience was fraught with barriers. What if the doors to the grocery store were built so that only some people could enter? What if products were just placed on shelves randomly with no organization? What if the cash register is broken and you have no way to checkout? How frustrated would you be at making the trip only to have this happen? Would you continue to do business with this company? Would you tell all your friends and family about your experience?
 
@@ -31,7 +31,7 @@ If not built properly, websites can present significant barriers to people with 
 
 Business owners should take responsibility for making their websites accessible to **all** their customers. 
 
-In many cases, preventing and fixing problems is quite simple if the developer understands some basic principles and techniques. Typically anywhere from 40% to 60% of issues can be fixed with just some simple adjustments. The reality is that the job will never be truly complete. Changes with new products, new blog posts, new designs, changes in browsers and assistive technologies and more can lead to new accessibility problems needing attention.
+In many cases, preventing and fixing problems is quite simple if the developer understands some basic principles and techniques. Typically about 60% of issues can be fixed with just some simple adjustments. The reality is that the job will never be truly complete. Changes with new products, new blog posts, new designs, changes in browsers and assistive technologies and more can lead to new accessibility problems needing attention.
 
 So the process becomes: 
 
@@ -39,4 +39,4 @@ So the process becomes:
 * Prioritize and schedule remediation of those items that are to be addressed
 * Modify the process for making any modification to the site to now include accessibility planning, testing, and validation as early and as often in the process as possible.
 
-So that’s the roadmap for what needs to be done and why, but notice I said that we’d remediate “those items that are to be addressed.” There is a great deal of controversy, confusion, myth, and contradictory information out there about what exactly constitutes a “failure.” There’s even a healthy amount of disagreement among accessibility professionals with many years of experience in accessibility about this. In my next article I’ll discuss the practical aspects of web accessibility and ways to decide what to address. (Hint: It’s all about the user).
+So that’s the roadmap for what needs to be done and why, but notice I said that we’d remediate “those items that are to be addressed.” There is a great deal of controversy, confusion, and myth surrounding what exactly constitutes a “failure.” In my <a href="/web-accessibility-next-steps">next article</a> I’ll discuss this and how to tackle what can seem like a huge burden on the small business owner.

@@ -9,7 +9,7 @@ function BlogPost(props) {
 
     const { title, image, displayDate, pubDate } = props.data.markdownRemark.frontmatter;
     const { prev, next } = props.pageContext;
-
+    
     return (
         <Layout>
             <SEO title={title} />
@@ -20,8 +20,8 @@ function BlogPost(props) {
                 {image && <Img fluid={image.childImageSharp.fluid} />}
 
                 <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }} />
-
-                <PrevNext prev={prev && prev.node} next={next && next.node} />
+                
+                <PrevNext prev={next && next.node} next={prev && prev.node} />
             </div>
         </Layout>
     )

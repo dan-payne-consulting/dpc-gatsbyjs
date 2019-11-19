@@ -4,7 +4,7 @@ const PrevNext = (props) => {
     const { prev, next } = props
 
     return (
-        <ul>
+        <ul className="prev-next-list">
             {prev && <li><a href={prev.fields.slug}>
                 Previous: {" "}
                 {prev.frontmatter.title}</a></li>}

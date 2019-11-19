@@ -13,10 +13,11 @@ const IndexPage = (props) => {
             <section>
             {postList.edges.map(({ node }, i) => {
                 const id = "article_"+i
+                const readMoreLink = "Continue reading "+node.frontmatter.title
                 return (
                     <article aria-labelledby={id} className="post-list">
                         <header>
-                            <h2>
+                            <h2 className="header2">
                                 <Link to={node.fields.slug} key={i} className="link" id={id}>
                                     {node.frontmatter.title}
                                 </Link>
@@ -26,7 +27,13 @@ const IndexPage = (props) => {
                                 {node.frontmatter.displayDate}
                             </p>
                         </header>
-                        <p>{node.frontmatter.summary}</p>
+                        <p>{node.frontmatter.summary}
+                          <div className="readmore-block">
+                            <Link to={node.fields.slug} key={i} className="readmore" id={id}>
+                              <span aria-label={readMoreLink}>Read More</span>
+                            </Link>
+                          </div>
+                        </p>
                     </article>
                 )
             })}

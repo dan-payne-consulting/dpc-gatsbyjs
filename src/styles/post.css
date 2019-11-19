@@ -1,1 +1,8 @@
 article.post-list { display: block; }
+.metadata { margin-bottom: 1.1rem; }
+.header2 { margin-bottom: 1.1rem; }
+.header2 a { font-size: 1.5rem; font-weight: normal; }
+.readmore-block { margin:5px 0; padding-bottom:10px; border-bottom: 1px solid #CCC; }
+.readmore { font-size: 0.8em; }
+
+.prev-next-list { margin-left: 0px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; list-style: none; font-size: 0.9rem; }

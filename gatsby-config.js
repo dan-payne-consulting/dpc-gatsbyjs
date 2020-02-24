@@ -67,13 +67,6 @@ module.exports = {
     //},
       `gatsby-transformer-remark`,
       'gatsby-plugin-offline',
-      {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-              path: `${__dirname}/content`,
-              name: "pages",
-          },
-      },
 
       {
           resolve: `gatsby-transformer-remark`,

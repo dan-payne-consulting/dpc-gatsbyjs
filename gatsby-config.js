@@ -19,11 +19,6 @@ module.exports = {
         link:'/links',
         display: 'both'
       },
-        {
-            name:'Blog',
-            link:'/blog',
-            display: 'both'
-        },
       {
         name:'Contact',
         link:'/contact',

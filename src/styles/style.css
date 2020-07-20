@@ -55,6 +55,7 @@ body {
 }
 
 header.top {
+    display: flex;
     position: fixed;
     left: 0;
     top: 0;
@@ -66,6 +67,12 @@ header.top {
     z-index: 1000;
     width: 100%;
     opacity: .97;
+}
+
+@media only screen and (max-width: 767px){
+    header.top {
+        display: block;
+    }
 }
 
 a.logo {
@@ -109,6 +116,7 @@ h1 {
     font-weight: normal;
     font-size: 36px;
     margin-top: 42px;
+    text-align: center;
 }
 
 #maincontent {

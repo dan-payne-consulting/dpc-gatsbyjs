@@ -4,7 +4,7 @@ import Layout from "../layouts/layout"
 import SEO from "../components/seo"
 
 import cpwaLogo from "../images/IAAP-Certification-Logo-CPWA_fullsize.png"
-import headshot from "../images/headshot-bw.webp"
+import shopifyPartners from "../images/shopify-partner.png"
 
 const IndexPage = () => (
   <Layout>
@@ -39,10 +39,9 @@ const IndexPage = () => (
     >
       <article className="content-text">
           <div>
-              <h1>Shopify Custom App Development</h1>
+              <h1>Certified Shopify App Developer</h1>
 
-              <p><img className="inline-img" src={headshot} alt="" style={{float:`left`,borderRadius:`45px`,margin:`0 30px 10px 0`,boxShadow:`20px 20px 15px -25px #000`,maxWidth:`33%`}}/>I'm a web technologist. My solid background in electronics engineering and web development as well as several leadership and management roles over the years give me a strong understanding of how businesses work and what they need for success on the web.</p>
-              <p>I've worked on more than twelve Shopify sites over the past five years doing everything from product data imports to custom app development. Here are some examples of apps I've produced:</p>
+              <p><img className="img" src={shopifyPartners} alt="" style={{float:`left`, margin:`0 20px 0 0`,maxWidth:`40%`}}/>I've been a web developer since 2006, working with Shopify stores since 2015. As a Certified Shopify App Developer I create custom applications that integrate with Shopify according to my client's needs. I've worked on more than twelve Shopify sites over the years doing everything from product data imports to custom app development. Here are some examples of apps I've produced:</p>
               <ul>
                   <li>Shop metafields manager: gives the client the ability to manage custom data structures that appear throughout their site.</li>
                   <li>Subscription manager: customers sign-up to re-order products at selected intervals with payments automatically processed.</li>
@@ -51,16 +50,13 @@ const IndexPage = () => (
                   <li>Custom integrations with various third-party services such as campaign management, fulfillment and inventory, taxes and shipping, and more...</li>
               </ul>
 
-              <p>I'm also a dedicated advocate for making the web a more inclusive and accessible place for everyone. I'm a <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org/certification">Certified Professional in Web Accessibility</a> through the <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org">International Association of Accessibility Professionals (IAAP)</a>, a not-for-profit organization whose aim is "to help accessibility professionals develop and advance their careers and to help organizations integrate accessibility into their products and infrastructure."</p>
-              <p>Bringing these two things together: a wealth of experience and a strong desire to help people, my consultancy is all about making the web a better place for everyone AND providing the strategies, vision, and expertise my clients need to successfully present their brand to the world.</p>
-              <p>If you're looking for expert advice on web design, development, accessibility, auditing, compliance, remediation, or anything else web-related, please <a href="/contact">get in touch</a> and I'd be happy to help.</p>
-
-
-              <p style={{textAlign: `center`, paddingTop: `20px`}}>
-                  <a href="https://www.accessibilityassociation.org/certification">
+              <p><a style={{float:`right`,paddingTop:`20px`}} href="https://www.accessibilityassociation.org/certification">
                       <img src={cpwaLogo} alt="About I A A P Certification"/>
-                  </a>
-              </p>
+                  </a>I'm also a dedicated advocate for making the web a more inclusive and accessible place for everyone. I'm a <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org/certification">Certified Professional in Web Accessibility</a> through the <a target="_blank" rel="noopener noreferrer" href="https://www.accessibilityassociation.org">International Association of Accessibility Professionals (IAAP)</a>, a not-for-profit organization whose aim is "to help accessibility professionals develop and advance their careers and to help organizations integrate accessibility into their products and infrastructure."</p>
+              <p>Bringing these two things together: a wealth of experience and a strong desire to help people, my consultancy is all about making the web a better place for everyone AND providing the strategies, vision, and expertise my clients need to successfully present their brand to the world.</p>
+
+              <p>Please <a href="/contact">get in touch</a> and let's see how I can be of help.</p>
+
           </div>
       </article>
   </section>

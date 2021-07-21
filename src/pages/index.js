@@ -15,7 +15,7 @@ const IndexPage = () => (
             <h1>Coming soon...</h1>
             <p>Web accessibility is my passion. My goal is to connect with as many businesses as I can to teach them about making their websites more accessible for people with disabilities. </p>
             <p>In the coming weeks I will provide more information on the services I will provide, but in the mean time, please <a href="/contact">get in touch</a> and let's see how I can be of help.</p>
-            <p>More to come by mid-July, 2021...</p>
+            <p>More to come by August, 2021...</p>
           </div>
       </article>
     </section>
